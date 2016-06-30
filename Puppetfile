@@ -7,7 +7,7 @@ mod "puppetlabs/stdlib",      '4.11.0'
 #mod "puppetlabs/concat",      '2.1.0'
 
 mod 'esyslogng',
-  :git =>  git@gitlab01.muctst2.elster.de:bopp/esyslogng.git
+  :git =>  'git@gitlab01.muctst2.elster.de:bopp/esyslogng.git'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
