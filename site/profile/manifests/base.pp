@@ -1,3 +1,3 @@
 class profile::base {
-include esyslogng::client
+#include esyslogng::client
 }
