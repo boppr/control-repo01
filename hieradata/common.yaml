@@ -5,3 +5,9 @@ message: "This node is using common data"
 esyslogng::client::logsrvs:
   - logmaster
 
+ntp::servers:
+  - 10.200.208.24 iburst
+  - 10.200.208.25 iburst
+  - 10.200.208.153 iburst
+  - 10.200.208.155 iburst
+  - 10.200.208.157 iburst
