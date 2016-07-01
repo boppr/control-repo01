@@ -1,0 +1,7 @@
+---
+message: "This node is using common data"
+
+#Modul esyslogng
+esyslogng::client::logsrvs:
+  - logmaster
+
