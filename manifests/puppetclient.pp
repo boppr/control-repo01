@@ -1,3 +1,3 @@
-node puppetclient1204.vagrant.local, puppetclient1404.vagrant.local, puppetclient1604.vagrant.local {
+node /^puppetclient\d+\.vagrant\.local$/ {
 include role::puppetclient
 }
