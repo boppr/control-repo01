@@ -12,10 +12,10 @@ mod "puppetlabs/stdlib",      '4.11.0'
 #mod 'ntp',
 #  :git =>  'git@gitlab01.muctst2.elster.de:puppet/ntp.git'
 
-mod 'ntp'
+mod 'ntp',
     :git => https://github.com/puppetlabs/puppetlabs-ntp.git
 
-mod 'envtest'
+mod 'envtest',
     :git => https://github.com/boppr/module_env_test.git
 
 # Modules from Git
